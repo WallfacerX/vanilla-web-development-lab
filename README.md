@@ -1,6 +1,11 @@
 # Coffee Oasis Web Project
 
-A multi-week HTML and CSS project created as part of WEBD 101: Introduction to Web Page Construction.
+A progressive vanilla HTML, CSS, and JavaScript project used to practice
+semantic markup, responsive layouts, forms, multimedia, SEO, accessibility,
+and client-side scripting.
+
+Developed as part of structured web-development coursework and expanded
+using a Git/GitHub feature-branch workflow.
 
 ## Project Goals
 
