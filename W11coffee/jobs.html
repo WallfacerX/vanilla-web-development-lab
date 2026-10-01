@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="The Coffee Oasis has good coffee, specialty drinks, live music,
+                   and a laid back spot where friends can hang out and relax.">
+    <title>The Coffee Oasis Music</title>
+    <link rel="stylesheet" href="coffee.css">
+</head>
+
+<body>
+<div id="wrapper">
+
+    <header>
+        <h1><a href="index.html">The Coffee Oasis</a></h1>
+    </header>
+
+    <!-- Main navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div id="herojobs"></div>
+
+        <h2>Jobs at The Coffee Oasis</h2>
+
+        <p>
+            Want to work at The Coffee Oasis? Fill out the form below to start your application.
+            All information is required.
+        </p>
+
+        <form method="post"
+              action="http://cs.franklin.edu/~crawforl/webd101/W8coffee.html">
+
+            <label for="myName">Name:</label>
+            <input type="text"
+                   id="myName"
+                   name="myName"
+                   required>
+
+            <label for="myEmail">E-mail:</label>
+            <input type="email"
+                   id="myEmail"
+                   name="myEmail"
+                   required>
+
+            <label for="myStart">Start Date:</label>
+            <input type="date"
+                   id="myStart"
+                   name="myStart"
+                   required>
+
+            <label for="myExperience">Experience:</label>
+            <textarea id="myExperience"
+                      name="myExperience"
+                      rows="2"
+                      cols="20"
+                      required></textarea>
+
+            <input type="submit"
+                   id="mySubmit"
+                   value="Apply Now">
+
+        </form>
+
+    </main>
+
+    <br>
+    <footer>
+        Copyright &copy; 2024 The Coffee Oasis<br>
+        <a href="mailto:melton34@email.franklin.edu">Kenyon Melton</a>
+    </footer>
+
+</div>
+</body>
+</html>
